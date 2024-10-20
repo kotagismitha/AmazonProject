@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 38.41 s <<< FAILURE! - in TestSuite
+Register_On_Amazon(MavenSelenium.MavenSelenium.module1.Test1)  Time elapsed: 13.444 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"partial link text","selector":"Mobile number already in use"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e18ac756b0e409a43286c05fc33f3ec9, findElement {value=Mobile number already in use, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\windows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58805/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e18ac756b0e409a43286c05fc33f3ec9
+	at MavenSelenium.MavenSelenium.module1.Test1.Register_On_Amazon(Test1.java:27)
+
+Edit_Items_In_Cart(MavenSelenium.MavenSelenium.module1.Test10)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test10.Edit_Items_In_Cart(Test10.java:12)
+
+Validate_CheckOut(MavenSelenium.MavenSelenium.module1.Test11)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test11.Validate_CheckOut(Test11.java:15)
+
+Validate_All_Payment_Methods(MavenSelenium.MavenSelenium.module1.Test12)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test12.Validate_All_Payment_Methods(Test12.java:13)
+
+Verify_Coupoun_code_application(MavenSelenium.MavenSelenium.module1.Test13)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test13.Verify_Coupoun_code_application(Test13.java:15)
+
+Rate_A_Product(MavenSelenium.MavenSelenium.module1.Test14)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test14.Rate_A_Product(Test14.java:12)
+
+Search_An_Item_AddToCartTest(MavenSelenium.MavenSelenium.module1.Test15)  Time elapsed: 1.065 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6845e58dc98d8c47213fca555fe8ade1, findElement {value=twotabsearchtextbox, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\windows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58851}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58851/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6845e58dc98d8c47213fca555fe8ade1
+	at MavenSelenium.MavenSelenium.module1.Test15.Search_An_Item_AddToCartTest(Test15.java:13)
+
+Signup_validationTest(MavenSelenium.MavenSelenium.module1.Test2)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test2.Signup_validationTest(Test2.java:12)
+
+Verfiy_Login_failure_invalid_Credentails(MavenSelenium.MavenSelenium.module1.Test3)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test3.Verfiy_Login_failure_invalid_Credentails(Test3.java:12)
+
+Edit_Amazon_Profile(MavenSelenium.MavenSelenium.module1.Test4)  Time elapsed: 1.18 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nav\-link\-accountList\-nav\-line\-1"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9db29c16101710be4078464d13f71a7f, findElement {value=nav-link-accountList-nav-line-1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\windows\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58863/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9db29c16101710be4078464d13f71a7f
+	at MavenSelenium.MavenSelenium.module1.Test4.Edit_Amazon_Profile(Test4.java:16)
+
+Edit_Amazon_Profile(MavenSelenium.MavenSelenium.module1.Test5)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test5.Edit_Amazon_Profile(Test5.java:15)
+
+Filters_On_Amazon(MavenSelenium.MavenSelenium.module1.Test6)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test6.Filters_On_Amazon(Test6.java:17)
+
+Product_details_verification(MavenSelenium.MavenSelenium.module1.Test7)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test7.Product_details_verification(Test7.java:14)
+
+Sort_Search_results(MavenSelenium.MavenSelenium.module1.Test8)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test8.Sort_Search_results(Test8.java:11)
+
+Add_Prod_to_cart(MavenSelenium.MavenSelenium.module1.Test9)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at MavenSelenium.MavenSelenium.module1.Test9.Add_Prod_to_cart(Test9.java:16)
+

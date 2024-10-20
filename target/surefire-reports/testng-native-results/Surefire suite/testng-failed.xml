@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="MavenSelenium.MavenSelenium.module1.Test15">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+          <include name="Search_An_Item_AddToCartTest"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test15 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+          <include name="Signup_validationTest"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test2 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test11">
+        <methods>
+          <include name="Validate_CheckOut"/>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test11 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test8">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Sort_Search_results"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test8 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test9">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Add_Prod_to_cart"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test9 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+          <include name="Register_On_Amazon"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test1 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test14">
+        <methods>
+          <include name="Rate_A_Product"/>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test14 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test12">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+          <include name="Validate_All_Payment_Methods"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test12 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test13">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Verify_Coupoun_code_application"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test13 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test6">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Filters_On_Amazon"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test6 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test4">
+        <methods>
+          <include name="Edit_Amazon_Profile"/>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test4 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test5">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+          <include name="Edit_Amazon_Profile"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test5 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test7">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Launch_the_Application"/>
+          <include name="Product_details_verification"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test7 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test3">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Verfiy_Login_failure_invalid_Credentails"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test3 -->
+      <class name="MavenSelenium.MavenSelenium.module1.Test10">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Edit_Items_In_Cart"/>
+          <include name="Launch_the_Application"/>
+        </methods>
+      </class> <!-- MavenSelenium.MavenSelenium.module1.Test10 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
